@@ -2,7 +2,7 @@
 
 Avtor: Tim Kmecl
 
-Mentor: prof. dr. Marko Robnik-Šikonja
+Mentor: prof. dr. Marko Robnik Šikonja
 
 ---
 
@@ -10,9 +10,11 @@ Ta repozitorij vsebuje kodo, uporabljeno pri diplomskem delu, prevedeno podatkov
 
 ## Podatkovne množice
 
-Strojni prevod podatkovne množice [ESNLI](https://github.com/OanaMariaCamburu/e-SNLI)  (50.000 primerov iz učne množice, po 3.000 iz validacijske in testne, in podmnožici 4.000 oziroma 600 primerov iz učne oziroma validacijske) v slovenščino z uporabo Google Translate API so v direktoriju [`datasets/ESNLIsi/`](datasets/ESNLIsi/). Vsak primer vsebuje ID primera, razred, izvirne angleške premiso, hipotezo in razlage ter strojne prevode premise, hipoteze in prve razlage.
-
 V direktoriju [`datasets/test_prevajalnikov/`](datasets/test_prevajalnikov/) so v treh poddirektorijih prevodi istih 1500 primerov iz učne in po 600 iz validacijske in testne množice ESNLI, strojno prevedeni z Google Prevajalnikom, prevajalnikom DeepL in [NeMo iz projekta RSDO](https://www.clarin.si/repository/xmlui/handle/11356/1736).
+
+### ESNLIsi
+
+Strojni prevod podatkovne množice [ESNLI](https://github.com/OanaMariaCamburu/e-SNLI)  (50.000 primerov iz učne množice, po 3.000 iz validacijske in testne, in podmnožici 4.000 oziroma 600 primerov iz učne oziroma validacijske) v slovenščino z uporabo Google Translate API so v direktoriju [`datasets/ESNLIsi/`](datasets/ESNLIsi/). Vsak primer vsebuje ID primera, razred, izvirne angleške premiso, hipotezo in razlage ter strojne prevode premise, hipoteze in prve razlage.
 
 ## Modeli
 
