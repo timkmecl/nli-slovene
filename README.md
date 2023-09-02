@@ -24,7 +24,7 @@ Strojni prevod podatkovne množice [ESNLI](https://github.com/OanaMariaCamburu/e
 
 - [*SloBERTa-ESNLI-SINLI*](https://huggingface.co/timkmecl/sloberta-esnli-sinli) - Model SloBERTa, prilagojen na ESNLIsi in nato na SI-NLI
 
-## Napovedi
+## Rezultati
 
 Generirane razlage za testno množico ESNLIsi s tremi modeli SloT5, prilagojeni na razlagah iz ESNLIsi, so v direktoriju [`napovedi/razlage`](napovedi/razlage/). Datoteke so poimenovane po modelu, ki jih je generiral. V datoteki [`explanations_sample_graded.tsv`](napovedi/razlage/explanations_sample_graded.tsv) je vzorec 50 primerov, na katerem smo razlage ocenili.
 
