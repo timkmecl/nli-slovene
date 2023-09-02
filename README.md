@@ -29,3 +29,7 @@ Strojni prevod podatkovne množice [ESNLI](https://github.com/OanaMariaCamburu/e
 Generirane razlage za testno množico ESNLIsi s tremi modeli SloT5, prilagojeni na razlagah iz ESNLIsi, so v direktoriju [`napovedi/razlage`](napovedi/razlage/). Datoteke so poimenovane po modelu, ki jih je generiral. V datoteki [`explanations_sample_graded.tsv`](napovedi/razlage/explanations_sample_graded.tsv) je vzorec 50 primerov, na katerem smo razlage ocenili.
 
 Napovedi različnih modelov na testni množici SI-NLI so v direktoriju [`napovedi/sinli`](napovedi/sinli/). Datoteke so poimenovane po modelu, ki je napovedoval, in vsebujejo njihove neobdelane izhode (prvi stolpec implikacija, drugi nevtralni in tretji kontradikcija).
+
+## Koda
+
+Koda za predobdelavo, analizo in prevajanje podatkovnih množic, uporabo modela GPT-3.5-turbo in analizo rezultatov je v direktoriju [`code/`](code/), organizirana po direktorijih in datotekah glede na namen, v formatu Jupyter Notebook. Koda za učenje in uporabo modelov ter prevajanje s prevajalnikom NeMo je objavljena na Kaggle Notebooks: [Prevajanje z NeMo](https://www.kaggle.com/code/timkmecl/nli-translate-esnli-nemo), [testiranje SloBERTa za primerjavo prevajalnikov](https://www.kaggle.com/code/timkmecl/nli-esnli-translation-comparison), [SloBERTa na SI-NLI](https://www.kaggle.com/code/timkmecl/nli-train-sinli), [SloBERTa in SloT5 na ESNLIsi](https://www.kaggle.com/code/timkmecl/nli-train-esnlisi).
